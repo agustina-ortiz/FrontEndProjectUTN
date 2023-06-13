@@ -1,0 +1,30 @@
+.footer {
+    margin-top: 6rem;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-family: var(--font-family);
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--second-color);
+    color: var(--font-color);
+}
+
+.links a {
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 20px;
+    color: var(--second-font-color);
+}
+
+.links a:hover {
+    color: var(--main-color);
+}
+
+.copyright {
+    font-size: 15px;
+    padding-top: 1rem;
+}
