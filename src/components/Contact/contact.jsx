@@ -30,6 +30,8 @@ function Contact() {
           <label className='label header'>Enter your message</label>
           <textarea className='input' placeholder="Enter your message" cols="50" rows="8"></textarea>
 
+          <input className='button' type="submit" value="Submit" />
+
         </form>
       </section>
     </>
