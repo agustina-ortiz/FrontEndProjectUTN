@@ -5,7 +5,7 @@ function Footer() {
 
   return (
     <>
-      <section id='footer' className='footer'>
+      <footer id='footer' className='footer'>
         <h3>Follow me on social media!</h3>
         <div className='links'>
           <a href="#Linkedin">LinkedIn</a>
@@ -13,7 +13,7 @@ function Footer() {
           <a href="#Twitter">Twitter</a>
         </div>
         <h4 className='copyright'>All rights reserved. 2023 ©</h4>
-      </section>
+      </footer>
     </>
   ) 
 }

@@ -1,0 +1,17 @@
+.home {
+    padding: 2rem;
+    padding-top: 6rem;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: var(--width);
+    min-height: var(--height);
+    text-align: center;
+}
+
+.title {
+    font-size: 55px;
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: center;
+    padding: 7rem;
+}
